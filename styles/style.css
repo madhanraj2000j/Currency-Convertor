@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+body{
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.main-card{
+    width: 90%;
+    padding: 2rem 1rem;
+    background-color: #9ef01a;
+    border-radius: 10px;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.para{
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+.img-container{
+    width: 5rem;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+.currency-icon{
+    border-radius: 50%;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.select-container-1,.select-container-2,.select-container-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+#currency-one,#amount-one,#currency-two,#amount-two,#btn-swap{
+    border: none;
+    border-radius: 5px;
+    padding: 0.25rem;
+}
+.rate{
+    font-weight: 600;
+}
+
+#btn-swap{
+    background-color: #004b23;
+    color: whitesmoke;
+}
+
+@media screen and (min-width:470px) {
+    .main-card{
+        width: 430px;
+    }
+}
+
+
